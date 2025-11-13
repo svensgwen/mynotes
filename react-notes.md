@@ -40,74 +40,7 @@ Your app will now be live on `http://localhost:5173/` 🎉
 
 ---
 
-## 🧱 Step 2: Install Bootstrap
-
-In your project folder, run:
-
-```bash
-yarn add bootstrap
-```
-
----
-
-## 🎨 Step 3: Import Bootstrap Styles
-
-Open your main entry file:
-
-```txt
-src/main.jsx
-```
-
-(or `src/main.tsx` if you’re using TypeScript)
-
-Add this line at the top:
-
-```js
-import 'bootstrap/dist/css/bootstrap.min.css';
-```
-
-That’s all you need for Bootstrap’s default styling.
-
----
-
-## ⚙️ Step 4 (Optional): Add Bootstrap JS
-
-If you plan to use interactive Bootstrap components like **modals**, **dropdowns**, or **tooltips**, you’ll need Popper:
-
-```bash
-yarn add @popperjs/core
-```
-
-Then import the JS bundle in `main.jsx` (or `.tsx`):
-
-```js
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-```
-
-This enables Bootstrap’s built-in JS features.
-
----
-
-## ⚡ Step 5: Use Bootstrap Classes
-
-Example component:
-
-```jsx
-function App() {
-  return (
-    <div className="container mt-5">
-      <h1 className="text-center text-primary">Hello, Bootstrap 💙</h1>
-      <button className="btn btn-success">Click Me</button>
-    </div>
-  );
-}
-
-export default App;
-```
-
----
-
-## ✨ Step 6 (Optional): Use React-Bootstrap
+## 🎨 Step 2: Install React Bootstrap
 
 If you want to use **Bootstrap components as React components**, install React-Bootstrap:
 
@@ -127,7 +60,26 @@ function App() {
 export default App;
 ```
 
-React-Bootstrap manages JS behavior automatically — no need to import Bootstrap’s JS.
+NOTE: React-Bootstrap manages JS behavior automatically.
+
+---
+
+## ✨ Step 3: Clean your App (app.jsx)
+
+Example component:
+
+```jsx
+function App() {
+  return (
+    <div style={{ fontFamily: "sans-serif", padding: "2rem" }}>
+      <h1>hello world</h1>
+      <p>the future’s loading…</p>
+    </div>
+  );
+}
+
+export default App;
+```
 
 ---
 
@@ -138,10 +90,7 @@ React-Bootstrap manages JS behavior automatically — no need to import Bootstra
 | 1 | Create Vite + React app | `yarn create vite my-app --template react` |
 | 2 | Install dependencies | `yarn` |
 | 3 | Run dev server | `yarn dev` |
-| 4 | Install Bootstrap | `yarn add bootstrap` |
-| 5 | Import CSS | `import 'bootstrap/dist/css/bootstrap.min.css';` |
-| 6 | (Optional) Import JS | `import 'bootstrap/dist/js/bootstrap.bundle.min.js';` |
-| 7 | (Optional) Add React-Bootstrap | `yarn add react-bootstrap` |
+| 4 |  Add React-Bootstrap | `yarn add react-bootstrap` |
 
 ---
 
