@@ -36,7 +36,15 @@ Run the dev server:
 yarn dev
 ```
 
-Your app will now be live on `http://localhost:5173/` 🎉
+Or run the app:
+
+```bash
+yarn vite
+```
+
+## Congratulations our app will now be live on Localhost
+
+[localhost:5173](http://localhost:5173/) 🎉
 
 ---
 
@@ -64,9 +72,11 @@ NOTE: React-Bootstrap manages JS behavior automatically.
 
 ---
 
-## ✨ Step 3: Clean your App (app.jsx)
+## ✨ Step 3: Clean your App (app.jsx, app.css)
 
-Example component:
+Delete all text in "**app.css**"
+
+Example component (**app.jsx**):
 
 ```jsx
 function App() {
@@ -80,6 +90,7 @@ function App() {
 
 export default App;
 ```
+
 
 ---
 
@@ -129,7 +140,7 @@ import logo from './assets/logo.png';
 function App() {
   return (
     <div className="container text-center mt-5">
-      <h1 className="text-primary mb-3">Hello from Vite + React</h1>
+      <h1 className="text-primary mb-3">Hello World</h1>
       <img src={logo} alt="Logo" width="200" />
     </div>
   );
@@ -195,3 +206,71 @@ If you’re using Bootstrap, you can style your images easily:
 
 Now your React app handles images the **modern, Vite-optimized** way — clean, fast, and production-ready. 💥
 
+## Create new Component
+
+```jsx
+function MyComponent() {
+  return (
+    <div>
+      <h1>Hello from my component</h1>
+    </div>
+  );
+}
+
+export default MyComponent;
+```
+
+## Select Options in React
+
+### Step 1: Install the package
+
+```bash
+yarn add react-select
+```
+
+### Step 2: Use it in your component
+
+```jsx
+import Select from "react-select";
+
+function MultiSelect() {
+  const options = [
+    { value: "react", label: "React" },
+    { value: "vue", label: "Vue" },
+    { value: "svelte", label: "Svelte" },
+    { value: "angular", label: "Angular" }
+  ];
+
+  return (
+    <Select
+      options={options}
+      isMulti
+      placeholder="Pick your language..."
+    />
+  );
+}
+
+export default MultiSelect;
+```
+
+### Step 3: Optional (Get the Value)
+
+```jsx
+<Select
+  options={options}
+  isMulti
+  onChange={(selected) => {
+    console.log(selected);
+  }}
+/>
+```
+
+### Step 4: Optional (Preselect Values)
+
+```jsx
+<Select
+  options={options}
+  isMulti
+  defaultValue={[options[0], options[2]]}
+/>
+```
