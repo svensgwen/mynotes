@@ -1,14 +1,10 @@
-# Awesome Useful Websites
+# My Personal Bookmarks
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 <br>
 
 Explore the internet's hidden gems with this list of awesome useful websites!
-
-<br>
-
-Feel free to share this list, star it, and [contribute](#contributing) your own awesome finds.
 
 <br>
 
@@ -20,11 +16,9 @@ Certain websites are tagged with the symbols listed below for convenience.
 | :----: | ------------------------------------------------------------------------------------------------ |
 |   $    | Payment Required (There are no free options)                                                     |
 |   @    | Student Friendly (Offers discounts or a free version for students)                               |
-|   !    | Website Down (The website is down for some reason, see the end of [contributing](#contributing)) |
+|   !    | Website Down (The website is down for some reason                                                |
 
 <br>
-
-Each website is included only once. Some websites can fall into multiple categories. If you can't find what you need in a specific category, search for keywords or explore other relevant categories as well. To look up websites, use the [raw](https://raw.githubusercontent.com/atakanaltok/awesome-useful-websites/refs/heads/main/README.md) version.
 
 # Contents
 
@@ -204,7 +198,7 @@ Each website is included only once. Some websites can fall into multiple categor
 
 ## Tools
 
-- [5000Best Tools](https://5000best.com/tools/) - 5000 tools.
+- [5000Best Tools](http://5000best.com/tools/) - 5000 tools.
 - [10015.io](https://10015.io/) - Free all-in-one toolbox for various tasks.
 - [UnTools](https://untools.co/) - Collection of thinking tools and frameworks.
 - [TimeTravel Memento](https://timetravel.mementoweb.org/) - Find Mementos in Internet Archive, Archive-It, British Library, archive.today, GitHub, and more.
