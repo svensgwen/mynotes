@@ -1,5 +1,7 @@
 # 🚀 Vite + React Project
 
+![ReactJs](../../Images/reactjs.webp)
+
 This guide shows how to create a **React + Vite** app using **Yarn** and add **Bootstrap** for styling.
 
 ---
